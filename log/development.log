@@ -9604,3 +9604,42 @@ Served asset /jquery_ujs.js - 304 Not Modified (0ms)
 
 Started GET "/assets/jasmine-specs.js?body=1" for 127.0.0.1 at 2013-09-03 19:57:38 -0500
 Served asset /jasmine-specs.js - 304 Not Modified (13ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-03 20:51:37 -0500
+Processing by StaticController#index as HTML
+  Rendered static/index.html within layouts/application (0.5ms)
+Completed 200 OK in 63ms (Views: 62.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-03 20:51:37 -0500
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jasmine-jquery.js?body=1" for 127.0.0.1 at 2013-09-03 20:51:37 -0500
+Served asset /jasmine-jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application/index.css?body=1" for 127.0.0.1 at 2013-09-03 20:51:37 -0500
+Served asset /application/index.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/application/index.js?body=1" for 127.0.0.1 at 2013-09-03 20:51:37 -0500
+Served asset /application/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-03 20:51:37 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index_spec.js?body=1" for 127.0.0.1 at 2013-09-03 20:51:37 -0500
+Served asset /index_spec.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-03 20:51:37 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-03 20:51:37 -0500
+Served asset /application.js - 200 OK (0ms)
