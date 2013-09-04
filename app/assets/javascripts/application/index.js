@@ -22,15 +22,33 @@ $(function(){
       update_screen(dave_the_oven.racks)
     })
   })
+
+  $('#to_oven').click(function(){
+      $.get('/batches/' + $(this).data('id'), function(batch){
+        var batch = new Batch(batch.cookie_type,
+                              batch.bake_time,
+                              batch.time_baked,
+                              batch.cookie_status,
+                              batch.id)
+        alert(dave_the_oven.insert_batch(batch))
+        console.log(batch)
+      }, 'json')
+      $(this).parent('li').remove()
+  })
 })
 
 function prep_batch(oven) {
   var batch = new Batch($('input[name=batch_type]').val(),
                         $('input[name=bake_time]').val())
 
+  $.post('/batches', batch, function(batch_id){
+    batch.batch_id = batch_id
+    console.log(batch_id)
+  })
+
   var li = $('<li>' + batch.cookie_type + '</li>')
 
-  var button = $('<button>Add To Oven</button>')
+  var button = $('<button id="#to_oven">Add To Oven</button>')
     .click(function(){
       alert(oven.insert_batch(batch))
       $(this).parent('li').remove()
@@ -42,11 +60,18 @@ function prep_batch(oven) {
 }
 
 function to_displaycase(batch){
-  li = $('<li class=' + batch.cookie_status + '>' + batch.cookie_type + '</li>')
+  var li = $('<li class=' + batch.cookie_status + '>' + batch.cookie_type + '</li>')
+  
+  $.post('/batches/' + batch.batch_id, {_method: 'PUT', location: 'displaycase'})
+
+  var button = $('<button>Eat!</button>')
     .click(function(){
-      $(this).remove();
-      
+      $.post('/batches/' + batch.batch_id, {_method: 'PUT', location: 'stomach'})
+      $(this).parent('li').remove();
     })
+
+  li.append(button)
+
   $('#displaycase').append(li)
 }
 
@@ -73,6 +98,10 @@ Oven.prototype.insert_batch = function(batch){
   $.each(this.racks, function(i, rack){
     if(!rack.batch && !batch_added){
       rack.set_batch(batch)
+      $.post('/batches/' + batch.batch_id, {_method: 'PUT', location: rack.getter}, function(batch){
+        console.log(batch)
+      }, 'json')
+      
       batch_added = true
       message = 'Cookies in the oven!'
     }
@@ -85,21 +114,32 @@ Oven.prototype.bake = function(){
   $.each(this.racks, function(i, rack){
     if(rack.batch){
       rack.batch.change_status()
+      $.post('/batches/' + rack.batch.batch_id, {_method: 'PUT', cookie_status: rack.batch.cookie_status})
     }
   })
   update_screen(this.racks)
 }
 
-function Batch(type, bake_time){
+function Batch(type, bake_time, time_baked, cookie_status, batch_id){
   this.cookie_type = type
   this.bake_time = bake_time
-  this.time_baked = 0
-  this.cookie_status = 'raw'
+  if (time_baked) {
+    this.time_baked = time_baked
+  } else {
+    this.time_baked = 0
+  }
+  if (cookie_status) {
+    this.cookie_status = cookie_status
+  } else {
+    this.cookie_status = 'raw'
+  }
+  if (batch_id) {
+    this.batch_id = batch_id
+  }
 }
 
 Batch.prototype.change_status = function(){
   this.time_baked += 1
-  console.log(this.time_baked)
   if (this.time_baked < this.bake_time) {
     this.cookie_status = 'still_gooey'
   } else if (this.time_baked == this.bake_time) {
