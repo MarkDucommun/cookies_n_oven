@@ -13979,3 +13979,1400 @@ Served asset /index_spec.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-04 09:28:59 -0500
 Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-04 09:35:38 -0500
+Processing by StaticController#index as HTML
+  [1m[36mBatch Load (0.4ms)[0m  [1mSELECT "batches".* FROM "batches" WHERE "batches"."location" = 'prep_table'[0m
+  [1m[35mBatch Load (0.3ms)[0m  SELECT "batches".* FROM "batches" WHERE "batches"."location" = '#rack_0' LIMIT 1
+  [1m[36mBatch Load (0.1ms)[0m  [1mSELECT "batches".* FROM "batches" WHERE "batches"."location" = '#rack_1' LIMIT 1[0m
+  [1m[35mBatch Load (0.1ms)[0m  SELECT "batches".* FROM "batches" WHERE "batches"."location" = '#rack_2' LIMIT 1
+  [1m[36mBatch Load (0.2ms)[0m  [1mSELECT "batches".* FROM "batches" WHERE "batches"."location" = 'displaycase'[0m
+  Rendered static/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 9ms (Views: 5.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-04 09:35:38 -0500
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jasmine-jquery.js?body=1" for 127.0.0.1 at 2013-09-04 09:35:38 -0500
+Served asset /jasmine-jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-04 09:35:38 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-04 09:35:38 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application/index.js?body=1" for 127.0.0.1 at 2013-09-04 09:35:38 -0500
+Served asset /application/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application/index.css?body=1" for 127.0.0.1 at 2013-09-04 09:35:38 -0500
+Served asset /application/index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index_spec.js?body=1" for 127.0.0.1 at 2013-09-04 09:35:38 -0500
+Served asset /index_spec.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-04 09:35:38 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-04 09:35:44 -0500
+Processing by StaticController#index as HTML
+  [1m[35mBatch Load (0.3ms)[0m  SELECT "batches".* FROM "batches" WHERE "batches"."location" = 'prep_table'
+  [1m[36mBatch Load (0.4ms)[0m  [1mSELECT "batches".* FROM "batches" WHERE "batches"."location" = '#rack_0' LIMIT 1[0m
+  [1m[35mBatch Load (0.2ms)[0m  SELECT "batches".* FROM "batches" WHERE "batches"."location" = '#rack_1' LIMIT 1
+  [1m[36mBatch Load (0.2ms)[0m  [1mSELECT "batches".* FROM "batches" WHERE "batches"."location" = '#rack_2' LIMIT 1[0m
+  [1m[35mBatch Load (0.1ms)[0m  SELECT "batches".* FROM "batches" WHERE "batches"."location" = 'displaycase'
+  Rendered static/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 8ms (Views: 3.9ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/application/index.css?body=1" for 127.0.0.1 at 2013-09-04 09:35:44 -0500
+Served asset /application/index.css - 304 Not Modified (28ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-04 09:35:44 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-04 09:35:44 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application/index.js?body=1" for 127.0.0.1 at 2013-09-04 09:35:44 -0500
+Served asset /application/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-04 09:35:44 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index_spec.js?body=1" for 127.0.0.1 at 2013-09-04 09:35:44 -0500
+Served asset /index_spec.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-04 09:35:44 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-04 09:53:33 -0500
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.3ms)
+Compiled application/index.js  (0ms)  (pid 58443)
+Compiled application.js  (3ms)  (pid 58443)
+Completed 200 OK in 81ms (Views: 81.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-04 09:53:33 -0500
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jasmine-jquery.js?body=1" for 127.0.0.1 at 2013-09-04 09:53:33 -0500
+Served asset /jasmine-jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application/index.css?body=1" for 127.0.0.1 at 2013-09-04 09:53:33 -0500
+Served asset /application/index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-04 09:53:33 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-04 09:53:33 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application/index.js?body=1" for 127.0.0.1 at 2013-09-04 09:53:33 -0500
+Served asset /application/index.js - 200 OK (1ms)
+
+
+Started GET "/assets/index_spec.js?body=1" for 127.0.0.1 at 2013-09-04 09:53:33 -0500
+Served asset /index_spec.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-04 09:53:33 -0500
+Served asset /application.js - 304 Not Modified (33ms)
+
+
+Started GET "/batches/prep_table" for 127.0.0.1 at 2013-09-04 09:53:33 -0500
+Processing by BatchesController#show as */*
+  Parameters: {"id"=>"prep_table"}
+  [1m[36mBatch Load (0.3ms)[0m  [1mSELECT "batches".* FROM "batches" WHERE "batches"."id" = $1 LIMIT 1[0m  [["id", "prep_table"]]
+Completed 404 Not Found in 5ms
+
+ActiveRecord::RecordNotFound (Couldn't find Batch with id=prep_table):
+  app/controllers/batches_controller.rb:3:in `show'
+
+
+  Rendered /Users/apprentice/.rvm/gems/ruby-1.9.3-p374/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /Users/apprentice/.rvm/gems/ruby-1.9.3-p374/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/apprentice/.rvm/gems/ruby-1.9.3-p374/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-04 09:54:27 -0500
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application/index.css?body=1" for 127.0.0.1 at 2013-09-04 09:54:27 -0500
+Served asset /application/index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-04 09:54:27 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-04 09:54:27 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-04 09:54:27 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jasmine-jquery.js?body=1" for 127.0.0.1 at 2013-09-04 09:54:27 -0500
+Served asset /jasmine-jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application/index.js?body=1" for 127.0.0.1 at 2013-09-04 09:54:27 -0500
+Served asset /application/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index_spec.js?body=1" for 127.0.0.1 at 2013-09-04 09:54:27 -0500
+Served asset /index_spec.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-04 09:54:27 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/batches/prep_table" for 127.0.0.1 at 2013-09-04 09:54:27 -0500
+Processing by BatchesController#show as */*
+  Parameters: {"id"=>"prep_table"}
+  [1m[35mBatch Load (0.4ms)[0m  SELECT "batches".* FROM "batches" WHERE "batches"."id" = $1 LIMIT 1  [["id", "prep_table"]]
+Completed 404 Not Found in 6ms
+
+ActiveRecord::RecordNotFound (Couldn't find Batch with id=prep_table):
+  app/controllers/batches_controller.rb:3:in `show'
+
+
+  Rendered /Users/apprentice/.rvm/gems/ruby-1.9.3-p374/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /Users/apprentice/.rvm/gems/ruby-1.9.3-p374/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/apprentice/.rvm/gems/ruby-1.9.3-p374/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-04 09:55:05 -0500
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 3.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jasmine-jquery.js?body=1" for 127.0.0.1 at 2013-09-04 09:55:05 -0500
+Served asset /jasmine-jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-04 09:55:05 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-04 09:55:05 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application/index.css?body=1" for 127.0.0.1 at 2013-09-04 09:55:05 -0500
+Served asset /application/index.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application/index.js?body=1" for 127.0.0.1 at 2013-09-04 09:55:05 -0500
+Served asset /application/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-04 09:55:05 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index_spec.js?body=1" for 127.0.0.1 at 2013-09-04 09:55:05 -0500
+Served asset /index_spec.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-04 09:55:05 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/batches/prep_table" for 127.0.0.1 at 2013-09-04 09:55:05 -0500
+Processing by BatchesController#prep_table as */*
+  [1m[36mBatch Load (4.4ms)[0m  [1mSELECT "batches".* FROM "batches" WHERE "batches"."location" = 'prep_table'[0m
+Completed 500 Internal Server Error in 21ms
+
+ActionView::MissingTemplate (Missing template batches/prep_table, application/prep_table with {:locale=>[:en], :formats=>[:html, :text, :js, :css, :ics, :csv, :png, :jpeg, :gif, :bmp, :tiff, :mpeg, :xml, :rss, :atom, :yaml, :multipart_form, :url_encoded_form, :json, :pdf, :zip], :handlers=>[:erb, :builder, :coffee]}. Searched in:
+  * "/Users/apprentice/Cookies_n_Ovens/app/views"
+  * "/Users/apprentice/.rvm/gems/ruby-1.9.3-p374/gems/jasmine-rails-0.4.5/app/views"
+):
+  actionpack (3.2.13) lib/action_view/path_set.rb:58:in `find'
+  actionpack (3.2.13) lib/action_view/lookup_context.rb:109:in `find'
+  actionpack (3.2.13) lib/action_view/renderer/abstract_renderer.rb:3:in `find_template'
+  actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:34:in `determine_template'
+  actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:10:in `render'
+  actionpack (3.2.13) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.13) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:110:in `_render_template'
+  actionpack (3.2.13) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.13) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.13) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.13) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  activesupport (3.2.13) lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  /Users/apprentice/.rvm/rubies/ruby-1.9.3-p374/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+  activesupport (3.2.13) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  activerecord (3.2.13) lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.13) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.13) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.13) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.13) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:414:in `_run__3549813189850939440__process_action__659045641176698699__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.13) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.13) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.13) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.13) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.13) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.13) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__2238870699359820005__call__94538431810879001__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/apprentice/.rvm/rubies/ruby-1.9.3-p374/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/apprentice/.rvm/rubies/ruby-1.9.3-p374/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/apprentice/.rvm/rubies/ruby-1.9.3-p374/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/apprentice/.rvm/gems/ruby-1.9.3-p374/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-04 09:55:38 -0500
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-04 09:55:38 -0500
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-04 09:55:38 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jasmine-jquery.js?body=1" for 127.0.0.1 at 2013-09-04 09:55:38 -0500
+Served asset /jasmine-jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application/index.js?body=1" for 127.0.0.1 at 2013-09-04 09:55:38 -0500
+Served asset /application/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-04 09:55:38 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application/index.css?body=1" for 127.0.0.1 at 2013-09-04 09:55:38 -0500
+Served asset /application/index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index_spec.js?body=1" for 127.0.0.1 at 2013-09-04 09:55:38 -0500
+Served asset /index_spec.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-04 09:55:38 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/batches/prep_table" for 127.0.0.1 at 2013-09-04 09:55:38 -0500
+Processing by BatchesController#prep_table as */*
+  [1m[35mBatch Load (0.3ms)[0m  SELECT "batches".* FROM "batches" WHERE "batches"."location" = 'prep_table'
+Completed 200 OK in 12ms (Views: 1.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-04 09:59:56 -0500
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.0ms)
+Compiled application/index.js  (0ms)  (pid 58443)
+Compiled application.js  (3ms)  (pid 58443)
+Completed 200 OK in 48ms (Views: 48.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-04 09:59:56 -0500
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-04 09:59:56 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application/index.js?body=1" for 127.0.0.1 at 2013-09-04 09:59:56 -0500
+Served asset /application/index.js - 200 OK (2ms)
+
+
+Started GET "/assets/jasmine-jquery.js?body=1" for 127.0.0.1 at 2013-09-04 09:59:56 -0500
+Served asset /jasmine-jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application/index.css?body=1" for 127.0.0.1 at 2013-09-04 09:59:56 -0500
+Served asset /application/index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-04 09:59:56 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index_spec.js?body=1" for 127.0.0.1 at 2013-09-04 09:59:56 -0500
+Served asset /index_spec.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-04 09:59:56 -0500
+Served asset /application.js - 304 Not Modified (10ms)
+
+
+Started GET "/batches/prep_table" for 127.0.0.1 at 2013-09-04 09:59:56 -0500
+Processing by BatchesController#prep_table as */*
+  [1m[36mBatch Load (0.5ms)[0m  [1mSELECT "batches".* FROM "batches" WHERE "batches"."location" = 'prep_table'[0m
+Completed 200 OK in 4ms (Views: 1.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-04 10:01:26 -0500
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.0ms)
+Compiled application/index.js  (0ms)  (pid 58443)
+Compiled application.js  (3ms)  (pid 58443)
+Completed 200 OK in 45ms (Views: 44.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-04 10:01:26 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-04 10:01:26 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-04 10:01:26 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jasmine-jquery.js?body=1" for 127.0.0.1 at 2013-09-04 10:01:26 -0500
+Served asset /jasmine-jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application/index.css?body=1" for 127.0.0.1 at 2013-09-04 10:01:26 -0500
+Served asset /application/index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application/index.js?body=1" for 127.0.0.1 at 2013-09-04 10:01:26 -0500
+Served asset /application/index.js - 200 OK (1ms)
+
+
+Started GET "/assets/index_spec.js?body=1" for 127.0.0.1 at 2013-09-04 10:01:26 -0500
+Served asset /index_spec.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-04 10:01:26 -0500
+Served asset /application.js - 304 Not Modified (8ms)
+
+
+Started GET "/batches/prep_table" for 127.0.0.1 at 2013-09-04 10:01:26 -0500
+Processing by BatchesController#prep_table as */*
+  [1m[35mBatch Load (0.4ms)[0m  SELECT "batches".* FROM "batches" WHERE "batches"."location" = 'prep_table'
+Completed 200 OK in 3ms (Views: 1.4ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/batches" for 127.0.0.1 at 2013-09-04 10:01:26 -0500
+Processing by BatchesController#create as */*
+  Parameters: {"cookie_type"=>"Ass", "bake_time"=>"5", "time_baked"=>"0", "cookie_status"=>"raw", "batch_id"=>"17", "change_status"=>"undefined"}
+  [1m[36m (0.6ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "batches" ("bake_time", "cookie_status", "cookie_type", "created_at", "location", "time_baked", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["bake_time", 5], ["cookie_status", "raw"], ["cookie_type", "Ass"], ["created_at", Wed, 04 Sep 2013 15:01:26 UTC +00:00], ["location", "prep_table"], ["time_baked", 0], ["updated_at", Wed, 04 Sep 2013 15:01:26 UTC +00:00]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  Rendered text template (0.0ms)
+Completed 200 OK in 8ms (Views: 0.9ms | ActiveRecord: 1.7ms)
+
+
+Started POST "/batches" for 127.0.0.1 at 2013-09-04 10:01:26 -0500
+Processing by BatchesController#create as */*
+  Parameters: {"cookie_type"=>"Donkey", "bake_time"=>"6", "time_baked"=>"0", "cookie_status"=>"raw", "batch_id"=>"18", "change_status"=>"undefined"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "batches" ("bake_time", "cookie_status", "cookie_type", "created_at", "location", "time_baked", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["bake_time", 6], ["cookie_status", "raw"], ["cookie_type", "Donkey"], ["created_at", Wed, 04 Sep 2013 15:01:26 UTC +00:00], ["location", "prep_table"], ["time_baked", 0], ["updated_at", Wed, 04 Sep 2013 15:01:26 UTC +00:00]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  Rendered text template (0.0ms)
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/batches" for 127.0.0.1 at 2013-09-04 10:01:26 -0500
+Processing by BatchesController#create as */*
+  Parameters: {"cookie_type"=>"Mule", "bake_time"=>"3", "time_baked"=>"0", "cookie_status"=>"raw", "batch_id"=>"19", "change_status"=>"undefined"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "batches" ("bake_time", "cookie_status", "cookie_type", "created_at", "location", "time_baked", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["bake_time", 3], ["cookie_status", "raw"], ["cookie_type", "Mule"], ["created_at", Wed, 04 Sep 2013 15:01:26 UTC +00:00], ["location", "prep_table"], ["time_baked", 0], ["updated_at", Wed, 04 Sep 2013 15:01:26 UTC +00:00]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.7ms)
+
+
+Started PUT "/batches/20" for 127.0.0.1 at 2013-09-04 10:01:32 -0500
+Processing by BatchesController#update as JSON
+  Parameters: {"location"=>"#rack_0", "id"=>"20"}
+  [1m[35mBatch Load (0.3ms)[0m  SELECT "batches".* FROM "batches" WHERE "batches"."id" = $1 LIMIT 1  [["id", "20"]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  UPDATE "batches" SET "location" = '#rack_0', "updated_at" = '2013-09-04 15:01:32.671223' WHERE "batches"."id" = 20
+  [1m[36m (16.1ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 20ms (Views: 0.6ms | ActiveRecord: 16.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-04 10:02:02 -0500
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-04 10:02:02 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application/index.js?body=1" for 127.0.0.1 at 2013-09-04 10:02:02 -0500
+Served asset /application/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-04 10:02:02 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application/index.css?body=1" for 127.0.0.1 at 2013-09-04 10:02:02 -0500
+Served asset /application/index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index_spec.js?body=1" for 127.0.0.1 at 2013-09-04 10:02:02 -0500
+Served asset /index_spec.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jasmine-jquery.js?body=1" for 127.0.0.1 at 2013-09-04 10:02:02 -0500
+Served asset /jasmine-jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-04 10:02:02 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/batches/prep_table" for 127.0.0.1 at 2013-09-04 10:02:02 -0500
+Processing by BatchesController#prep_table as */*
+  [1m[35mBatch Load (1.0ms)[0m  SELECT "batches".* FROM "batches" WHERE "batches"."location" = 'prep_table'
+Completed 200 OK in 4ms (Views: 1.3ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/batches" for 127.0.0.1 at 2013-09-04 10:02:02 -0500
+Processing by BatchesController#create as */*
+  Parameters: {"cookie_type"=>"Ass", "bake_time"=>"5", "time_baked"=>"0", "cookie_status"=>"raw", "batch_id"=>"17", "change_status"=>"undefined"}
+WARNING: Can't verify CSRF token authenticity
+  [1m[36m (7.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "batches" ("bake_time", "cookie_status", "cookie_type", "created_at", "location", "time_baked", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["bake_time", 5], ["cookie_status", "raw"], ["cookie_type", "Ass"], ["created_at", Wed, 04 Sep 2013 15:02:02 UTC +00:00], ["location", "prep_table"], ["time_baked", 0], ["updated_at", Wed, 04 Sep 2013 15:02:02 UTC +00:00]]
+  [1m[36m (0.8ms)[0m  [1mCOMMIT[0m
+  Rendered text template (0.0ms)
+Completed 200 OK in 13ms (Views: 1.6ms | ActiveRecord: 8.8ms)
+
+
+Started POST "/batches" for 127.0.0.1 at 2013-09-04 10:02:02 -0500
+Processing by BatchesController#create as */*
+  Parameters: {"cookie_type"=>"Donkey", "bake_time"=>"6", "time_baked"=>"0", "cookie_status"=>"raw", "batch_id"=>"21", "change_status"=>"undefined"}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "batches" ("bake_time", "cookie_status", "cookie_type", "created_at", "location", "time_baked", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["bake_time", 6], ["cookie_status", "raw"], ["cookie_type", "Donkey"], ["created_at", Wed, 04 Sep 2013 15:02:02 UTC +00:00], ["location", "prep_table"], ["time_baked", 0], ["updated_at", Wed, 04 Sep 2013 15:02:02 UTC +00:00]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  Rendered text template (0.0ms)
+Completed 200 OK in 3ms (Views: 0.4ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/batches" for 127.0.0.1 at 2013-09-04 10:02:02 -0500
+Processing by BatchesController#create as */*
+  Parameters: {"cookie_type"=>"Mule", "bake_time"=>"3", "time_baked"=>"0", "cookie_status"=>"raw", "batch_id"=>"19", "change_status"=>"undefined"}
+WARNING: Can't verify CSRF token authenticity
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "batches" ("bake_time", "cookie_status", "cookie_type", "created_at", "location", "time_baked", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["bake_time", 3], ["cookie_status", "raw"], ["cookie_type", "Mule"], ["created_at", Wed, 04 Sep 2013 15:02:02 UTC +00:00], ["location", "prep_table"], ["time_baked", 0], ["updated_at", Wed, 04 Sep 2013 15:02:02 UTC +00:00]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  Rendered text template (0.0ms)
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/batches" for 127.0.0.1 at 2013-09-04 10:02:02 -0500
+Processing by BatchesController#create as */*
+  Parameters: {"cookie_type"=>"Donkey", "bake_time"=>"6", "time_baked"=>"0", "cookie_status"=>"raw", "batch_id"=>"18", "change_status"=>"undefined"}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "batches" ("bake_time", "cookie_status", "cookie_type", "created_at", "location", "time_baked", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["bake_time", 6], ["cookie_status", "raw"], ["cookie_type", "Donkey"], ["created_at", Wed, 04 Sep 2013 15:02:02 UTC +00:00], ["location", "prep_table"], ["time_baked", 0], ["updated_at", Wed, 04 Sep 2013 15:02:02 UTC +00:00]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  Rendered text template (0.0ms)
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/batches" for 127.0.0.1 at 2013-09-04 10:02:02 -0500
+Processing by BatchesController#create as */*
+  Parameters: {"cookie_type"=>"Mule", "bake_time"=>"3", "time_baked"=>"0", "cookie_status"=>"raw", "batch_id"=>"22", "change_status"=>"undefined"}
+WARNING: Can't verify CSRF token authenticity
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "batches" ("bake_time", "cookie_status", "cookie_type", "created_at", "location", "time_baked", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["bake_time", 3], ["cookie_status", "raw"], ["cookie_type", "Mule"], ["created_at", Wed, 04 Sep 2013 15:02:02 UTC +00:00], ["location", "prep_table"], ["time_baked", 0], ["updated_at", Wed, 04 Sep 2013 15:02:02 UTC +00:00]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  Rendered text template (0.0ms)
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-04 10:02:34 -0500
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.0ms)
+Compiled application/index.js  (0ms)  (pid 58443)
+Compiled application.js  (3ms)  (pid 58443)
+Completed 200 OK in 49ms (Views: 48.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-04 10:02:34 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-04 10:02:34 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application/index.css?body=1" for 127.0.0.1 at 2013-09-04 10:02:34 -0500
+Served asset /application/index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application/index.js?body=1" for 127.0.0.1 at 2013-09-04 10:02:34 -0500
+Served asset /application/index.js - 200 OK (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-04 10:02:34 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jasmine-jquery.js?body=1" for 127.0.0.1 at 2013-09-04 10:02:34 -0500
+Served asset /jasmine-jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index_spec.js?body=1" for 127.0.0.1 at 2013-09-04 10:02:34 -0500
+Served asset /index_spec.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-04 10:02:34 -0500
+Served asset /application.js - 304 Not Modified (9ms)
+
+
+Started GET "/batches/prep_table" for 127.0.0.1 at 2013-09-04 10:02:34 -0500
+Processing by BatchesController#prep_table as */*
+  [1m[35mBatch Load (0.5ms)[0m  SELECT "batches".* FROM "batches" WHERE "batches"."location" = 'prep_table'
+Completed 200 OK in 6ms (Views: 4.0ms | ActiveRecord: 0.5ms)
+
+
+Started PUT "/batches/17" for 127.0.0.1 at 2013-09-04 10:02:38 -0500
+Processing by BatchesController#update as JSON
+  Parameters: {"location"=>"#rack_0", "id"=>"17"}
+  [1m[36mBatch Load (0.3ms)[0m  [1mSELECT "batches".* FROM "batches" WHERE "batches"."id" = $1 LIMIT 1[0m  [["id", "17"]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mUPDATE "batches" SET "location" = '#rack_0', "updated_at" = '2013-09-04 15:02:38.597693' WHERE "batches"."id" = 17[0m
+  [1m[35m (0.4ms)[0m  COMMIT
+Completed 200 OK in 4ms (Views: 0.3ms | ActiveRecord: 1.1ms)
+
+
+Started PUT "/batches/18" for 127.0.0.1 at 2013-09-04 10:02:40 -0500
+Processing by BatchesController#update as JSON
+  Parameters: {"location"=>"#rack_1", "id"=>"18"}
+  [1m[36mBatch Load (0.7ms)[0m  [1mSELECT "batches".* FROM "batches" WHERE "batches"."id" = $1 LIMIT 1[0m  [["id", "18"]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mUPDATE "batches" SET "location" = '#rack_1', "updated_at" = '2013-09-04 15:02:40.699334' WHERE "batches"."id" = 18[0m
+  [1m[35m (0.4ms)[0m  COMMIT
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 1.5ms)
+
+
+Started PUT "/batches/19" for 127.0.0.1 at 2013-09-04 10:02:42 -0500
+Processing by BatchesController#update as JSON
+  Parameters: {"location"=>"#rack_2", "id"=>"19"}
+  [1m[36mBatch Load (0.2ms)[0m  [1mSELECT "batches".* FROM "batches" WHERE "batches"."id" = $1 LIMIT 1[0m  [["id", "19"]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mUPDATE "batches" SET "location" = '#rack_2', "updated_at" = '2013-09-04 15:02:42.614656' WHERE "batches"."id" = 19[0m
+  [1m[35m (0.4ms)[0m  COMMIT
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-04 10:02:54 -0500
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-04 10:02:54 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-04 10:02:54 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application/index.css?body=1" for 127.0.0.1 at 2013-09-04 10:02:54 -0500
+Served asset /application/index.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-04 10:02:54 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jasmine-jquery.js?body=1" for 127.0.0.1 at 2013-09-04 10:02:54 -0500
+Served asset /jasmine-jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application/index.js?body=1" for 127.0.0.1 at 2013-09-04 10:02:54 -0500
+Served asset /application/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index_spec.js?body=1" for 127.0.0.1 at 2013-09-04 10:02:54 -0500
+Served asset /index_spec.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-04 10:02:54 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/batches/prep_table" for 127.0.0.1 at 2013-09-04 10:02:54 -0500
+Processing by BatchesController#prep_table as */*
+  [1m[36mBatch Load (0.4ms)[0m  [1mSELECT "batches".* FROM "batches" WHERE "batches"."location" = 'prep_table'[0m
+Completed 200 OK in 5ms (Views: 3.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-04 10:03:06 -0500
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 4.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-04 10:03:06 -0500
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application/index.css?body=1" for 127.0.0.1 at 2013-09-04 10:03:06 -0500
+Served asset /application/index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-04 10:03:06 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application/index.js?body=1" for 127.0.0.1 at 2013-09-04 10:03:06 -0500
+Served asset /application/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-04 10:03:06 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jasmine-jquery.js?body=1" for 127.0.0.1 at 2013-09-04 10:03:06 -0500
+Served asset /jasmine-jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index_spec.js?body=1" for 127.0.0.1 at 2013-09-04 10:03:06 -0500
+Served asset /index_spec.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-04 10:03:06 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/batches/prep_table" for 127.0.0.1 at 2013-09-04 10:03:06 -0500
+Processing by BatchesController#prep_table as */*
+  [1m[35mBatch Load (0.4ms)[0m  SELECT "batches".* FROM "batches" WHERE "batches"."location" = 'prep_table'
+Completed 200 OK in 5ms (Views: 3.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-04 10:03:08 -0500
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-04 10:03:08 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-04 10:03:08 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jasmine-jquery.js?body=1" for 127.0.0.1 at 2013-09-04 10:03:08 -0500
+Served asset /jasmine-jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application/index.css?body=1" for 127.0.0.1 at 2013-09-04 10:03:08 -0500
+Served asset /application/index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-04 10:03:08 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application/index.js?body=1" for 127.0.0.1 at 2013-09-04 10:03:08 -0500
+Served asset /application/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index_spec.js?body=1" for 127.0.0.1 at 2013-09-04 10:03:08 -0500
+Served asset /index_spec.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-04 10:03:08 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/batches/prep_table" for 127.0.0.1 at 2013-09-04 10:03:08 -0500
+Processing by BatchesController#prep_table as */*
+  [1m[36mBatch Load (0.3ms)[0m  [1mSELECT "batches".* FROM "batches" WHERE "batches"."location" = 'prep_table'[0m
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.3ms)
+Connecting to database specified by database.yml
+  [1m[36m (22.6ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateBatchs (20130904120226)
+  [1m[35m (0.2ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Connecting to database specified by database.yml
+  [1m[36m (3.6ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (1.5ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.3ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateBatchs (20130904120226)
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (4.0ms)[0m  [1mCREATE TABLE "batches" ("id" serial primary key, "cookie_type" character varying(255) NOT NULL, "cookie_status" character varying(255) DEFAULT 'raw', "location" character varying(255) DEFAULT 'prep_table', "bake_time" integer NOT NULL, "time_baked" integer DEFAULT 0, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20130904120226')
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-04 10:04:56 -0500
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (2.2ms)
+Compiled application/index.js  (0ms)  (pid 63167)
+Compiled application.js  (3ms)  (pid 63167)
+Completed 200 OK in 53ms (Views: 52.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jasmine-jquery.js?body=1" for 127.0.0.1 at 2013-09-04 10:04:57 -0500
+Served asset /jasmine-jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application/index.css?body=1" for 127.0.0.1 at 2013-09-04 10:04:57 -0500
+Served asset /application/index.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-04 10:04:57 -0500
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-04 10:04:57 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application/index.js?body=1" for 127.0.0.1 at 2013-09-04 10:04:57 -0500
+Served asset /application/index.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-04 10:04:57 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/index_spec.js?body=1" for 127.0.0.1 at 2013-09-04 10:04:57 -0500
+Served asset /index_spec.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-04 10:04:57 -0500
+Served asset /application.js - 304 Not Modified (8ms)
+
+
+Started GET "/batches/prep_table" for 127.0.0.1 at 2013-09-04 10:04:57 -0500
+Processing by BatchesController#prep_table as */*
+  [1m[36mBatch Load (1.0ms)[0m  [1mSELECT "batches".* FROM "batches" WHERE "batches"."location" = 'prep_table'[0m
+Completed 200 OK in 92ms (Views: 0.1ms | ActiveRecord: 8.0ms)
+
+
+Started POST "/batches" for 127.0.0.1 at 2013-09-04 10:05:06 -0500
+Processing by BatchesController#create as */*
+  Parameters: {"cookie_type"=>"Chocolate Chip", "bake_time"=>"5", "time_baked"=>"0", "cookie_status"=>"raw", "change_status"=>"undefined"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (23.6ms)[0m  [1mINSERT INTO "batches" ("bake_time", "cookie_status", "cookie_type", "created_at", "location", "time_baked", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["bake_time", 5], ["cookie_status", "raw"], ["cookie_type", "Chocolate Chip"], ["created_at", Wed, 04 Sep 2013 15:05:06 UTC +00:00], ["location", "prep_table"], ["time_baked", 0], ["updated_at", Wed, 04 Sep 2013 15:05:06 UTC +00:00]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  Rendered text template (0.0ms)
+Completed 200 OK in 69ms (Views: 33.7ms | ActiveRecord: 24.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-04 10:05:10 -0500
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-04 10:05:10 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-04 10:05:10 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application/index.css?body=1" for 127.0.0.1 at 2013-09-04 10:05:10 -0500
+Served asset /application/index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application/index.js?body=1" for 127.0.0.1 at 2013-09-04 10:05:10 -0500
+Served asset /application/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-04 10:05:10 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jasmine-jquery.js?body=1" for 127.0.0.1 at 2013-09-04 10:05:10 -0500
+Served asset /jasmine-jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index_spec.js?body=1" for 127.0.0.1 at 2013-09-04 10:05:10 -0500
+Served asset /index_spec.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-04 10:05:10 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/batches/prep_table" for 127.0.0.1 at 2013-09-04 10:05:11 -0500
+Processing by BatchesController#prep_table as */*
+  [1m[36mBatch Load (0.5ms)[0m  [1mSELECT "batches".* FROM "batches" WHERE "batches"."location" = 'prep_table'[0m
+Completed 200 OK in 3ms (Views: 0.9ms | ActiveRecord: 0.5ms)
+
+
+Started PUT "/batches/1" for 127.0.0.1 at 2013-09-04 10:05:20 -0500
+Processing by BatchesController#update as JSON
+  Parameters: {"location"=>"#rack_0", "id"=>"1"}
+  [1m[35mBatch Load (0.7ms)[0m  SELECT "batches".* FROM "batches" WHERE "batches"."id" = $1 LIMIT 1  [["id", "1"]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.5ms)[0m  UPDATE "batches" SET "location" = '#rack_0', "updated_at" = '2013-09-04 15:05:20.261200' WHERE "batches"."id" = 1
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 6ms (Views: 0.6ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-04 10:05:37 -0500
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 4ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application/index.css?body=1" for 127.0.0.1 at 2013-09-04 10:05:37 -0500
+Served asset /application/index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application/index.js?body=1" for 127.0.0.1 at 2013-09-04 10:05:37 -0500
+Served asset /application/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index_spec.js?body=1" for 127.0.0.1 at 2013-09-04 10:05:37 -0500
+Served asset /index_spec.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-04 10:05:37 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-04 10:05:37 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jasmine-jquery.js?body=1" for 127.0.0.1 at 2013-09-04 10:05:37 -0500
+Served asset /jasmine-jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-04 10:05:37 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application/index.js?body=1" for 127.0.0.1 at 2013-09-04 10:05:37 -0500
+Served asset /application/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index_spec.js?body=1" for 127.0.0.1 at 2013-09-04 10:05:37 -0500
+Served asset /index_spec.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-04 10:05:37 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-04 10:11:01 -0500
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.0ms)
+Compiled application/index.js  (0ms)  (pid 63167)
+Compiled application.js  (5ms)  (pid 63167)
+Completed 200 OK in 56ms (Views: 56.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-04 10:11:01 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application/index.css?body=1" for 127.0.0.1 at 2013-09-04 10:11:01 -0500
+Served asset /application/index.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jasmine-jquery.js?body=1" for 127.0.0.1 at 2013-09-04 10:11:01 -0500
+Served asset /jasmine-jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index_spec.js?body=1" for 127.0.0.1 at 2013-09-04 10:11:01 -0500
+Served asset /index_spec.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-04 10:11:01 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-04 10:11:01 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application/index.js?body=1" for 127.0.0.1 at 2013-09-04 10:11:02 -0500
+Served asset /application/index.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-04 10:11:02 -0500
+Served asset /application.js - 304 Not Modified (9ms)
+
+
+Started GET "/batches/prep_table" for 127.0.0.1 at 2013-09-04 10:11:02 -0500
+Processing by BatchesController#prep_table as */*
+  [1m[35mBatch Load (0.5ms)[0m  SELECT "batches".* FROM "batches" WHERE "batches"."location" = 'prep_table'
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/batches/rack_0" for 127.0.0.1 at 2013-09-04 10:11:02 -0500
+
+AbstractController::ActionNotFound (The action 'rack_0' could not be found for BatchesController):
+  actionpack (3.2.13) lib/abstract_controller/base.rb:116:in `process'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.13) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.13) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.13) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__2833909658671041213__call__548038634113090788__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/apprentice/.rvm/rubies/ruby-1.9.3-p374/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/apprentice/.rvm/rubies/ruby-1.9.3-p374/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/apprentice/.rvm/rubies/ruby-1.9.3-p374/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/apprentice/.rvm/gems/ruby-1.9.3-p374/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-04 10:11:03 -0500
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 3.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-04 10:11:03 -0500
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application/index.css?body=1" for 127.0.0.1 at 2013-09-04 10:11:03 -0500
+Served asset /application/index.css - 304 Not Modified (24ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-04 10:11:03 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jasmine-jquery.js?body=1" for 127.0.0.1 at 2013-09-04 10:11:03 -0500
+Served asset /jasmine-jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application/index.js?body=1" for 127.0.0.1 at 2013-09-04 10:11:03 -0500
+Served asset /application/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-04 10:11:03 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index_spec.js?body=1" for 127.0.0.1 at 2013-09-04 10:11:03 -0500
+Served asset /index_spec.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-04 10:11:03 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application/index.js?body=1" for 127.0.0.1 at 2013-09-04 10:11:03 -0500
+Served asset /application/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index_spec.js?body=1" for 127.0.0.1 at 2013-09-04 10:11:03 -0500
+Served asset /index_spec.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-04 10:11:03 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/batches/prep_table" for 127.0.0.1 at 2013-09-04 10:11:03 -0500
+Processing by BatchesController#prep_table as */*
+  [1m[36mBatch Load (0.3ms)[0m  [1mSELECT "batches".* FROM "batches" WHERE "batches"."location" = 'prep_table'[0m
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/batches/rack_0" for 127.0.0.1 at 2013-09-04 10:11:03 -0500
+
+AbstractController::ActionNotFound (The action 'rack_0' could not be found for BatchesController):
+  actionpack (3.2.13) lib/abstract_controller/base.rb:116:in `process'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.13) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.13) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.13) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__2833909658671041213__call__548038634113090788__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/apprentice/.rvm/rubies/ruby-1.9.3-p374/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/apprentice/.rvm/rubies/ruby-1.9.3-p374/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/apprentice/.rvm/rubies/ruby-1.9.3-p374/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/apprentice/.rvm/gems/ruby-1.9.3-p374/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-04 10:11:46 -0500
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-04 10:11:46 -0500
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application/index.css?body=1" for 127.0.0.1 at 2013-09-04 10:11:46 -0500
+Served asset /application/index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-04 10:11:46 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application/index.js?body=1" for 127.0.0.1 at 2013-09-04 10:11:46 -0500
+Served asset /application/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index_spec.js?body=1" for 127.0.0.1 at 2013-09-04 10:11:46 -0500
+Served asset /index_spec.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jasmine-jquery.js?body=1" for 127.0.0.1 at 2013-09-04 10:11:46 -0500
+Served asset /jasmine-jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-04 10:11:46 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-04 10:12:53 -0500
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.0ms)
+Compiled application/index.js  (0ms)  (pid 63167)
+Compiled application.js  (3ms)  (pid 63167)
+Completed 200 OK in 44ms (Views: 44.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-04 10:12:53 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-04 10:12:53 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application/index.css?body=1" for 127.0.0.1 at 2013-09-04 10:12:53 -0500
+Served asset /application/index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-04 10:12:53 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jasmine-jquery.js?body=1" for 127.0.0.1 at 2013-09-04 10:12:53 -0500
+Served asset /jasmine-jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application/index.js?body=1" for 127.0.0.1 at 2013-09-04 10:12:53 -0500
+Served asset /application/index.js - 200 OK (2ms)
+
+
+Started GET "/assets/index_spec.js?body=1" for 127.0.0.1 at 2013-09-04 10:12:53 -0500
+Served asset /index_spec.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-04 10:12:53 -0500
+Served asset /application.js - 304 Not Modified (8ms)
+
+
+Started GET "/batches/prep_table" for 127.0.0.1 at 2013-09-04 10:12:54 -0500
+Processing by BatchesController#prep_table as */*
+  [1m[35mBatch Load (0.6ms)[0m  SELECT "batches".* FROM "batches" WHERE "batches"."location" = 'prep_table'
+Completed 200 OK in 9ms (Views: 0.1ms | ActiveRecord: 6.7ms)
+
+
+Started GET "/batches/rack_0" for 127.0.0.1 at 2013-09-04 10:12:54 -0500
+Processing by BatchesController#rack_0 as */*
+  [1m[36mBatch Load (0.4ms)[0m  [1mSELECT "batches".* FROM "batches" WHERE "batches"."location" = '#rack_0' LIMIT 1[0m
+Completed 200 OK in 8ms (Views: 0.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-04 10:13:12 -0500
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.0ms)
+Compiled application/index.js  (0ms)  (pid 63167)
+Compiled application.js  (3ms)  (pid 63167)
+Completed 200 OK in 47ms (Views: 46.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-04 10:13:12 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-04 10:13:12 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jasmine-jquery.js?body=1" for 127.0.0.1 at 2013-09-04 10:13:12 -0500
+Served asset /jasmine-jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-04 10:13:12 -0500
+Served asset /application.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-04 10:13:12 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application/index.js?body=1" for 127.0.0.1 at 2013-09-04 10:13:12 -0500
+Served asset /application/index.js - 200 OK (1ms)
+
+
+Started GET "/assets/index_spec.js?body=1" for 127.0.0.1 at 2013-09-04 10:13:12 -0500
+Served asset /index_spec.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application/index.css?body=1" for 127.0.0.1 at 2013-09-04 10:13:12 -0500
+Served asset /application/index.css - 304 Not Modified (0ms)
+
+
+Started GET "/batches/prep_table" for 127.0.0.1 at 2013-09-04 10:13:12 -0500
+Processing by BatchesController#prep_table as */*
+  [1m[35mBatch Load (0.6ms)[0m  SELECT "batches".* FROM "batches" WHERE "batches"."location" = 'prep_table'
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/batches/rack_0" for 127.0.0.1 at 2013-09-04 10:13:12 -0500
+Processing by BatchesController#rack_0 as */*
+  [1m[36mBatch Load (1.2ms)[0m  [1mSELECT "batches".* FROM "batches" WHERE "batches"."location" = '#rack_0' LIMIT 1[0m
+Completed 200 OK in 3ms (Views: 0.9ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-04 10:13:38 -0500
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.1ms)
+Compiled application/index.js  (0ms)  (pid 63167)
+Compiled application.js  (4ms)  (pid 63167)
+Completed 200 OK in 29ms (Views: 28.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-04 10:13:38 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-04 10:13:38 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jasmine-jquery.js?body=1" for 127.0.0.1 at 2013-09-04 10:13:38 -0500
+Served asset /jasmine-jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-04 10:13:38 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application/index.css?body=1" for 127.0.0.1 at 2013-09-04 10:13:38 -0500
+Served asset /application/index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application/index.js?body=1" for 127.0.0.1 at 2013-09-04 10:13:38 -0500
+Served asset /application/index.js - 200 OK (1ms)
+
+
+Started GET "/assets/index_spec.js?body=1" for 127.0.0.1 at 2013-09-04 10:13:38 -0500
+Served asset /index_spec.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-04 10:13:38 -0500
+Served asset /application.js - 304 Not Modified (33ms)
+
+
+Started GET "/batches/prep_table" for 127.0.0.1 at 2013-09-04 10:13:38 -0500
+Processing by BatchesController#prep_table as */*
+  [1m[35mBatch Load (0.9ms)[0m  SELECT "batches".* FROM "batches" WHERE "batches"."location" = 'prep_table'
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/batches/rack_0" for 127.0.0.1 at 2013-09-04 10:13:38 -0500
+Processing by BatchesController#rack_0 as */*
+  [1m[36mBatch Load (0.4ms)[0m  [1mSELECT "batches".* FROM "batches" WHERE "batches"."location" = '#rack_0' LIMIT 1[0m
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.4ms)

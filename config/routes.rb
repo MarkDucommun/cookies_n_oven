@@ -11,6 +11,11 @@ CookiesAndOvens::Application.routes.draw do
   # This route can be invoked with purchase_url(:id => product.id)
 
   # Sample resource route (maps HTTP verbs to controller actions automatically):
+  get '/batches/prep_table', to: 'batches#prep_table', as: 'prep_table'
+  get '/batches/rack_0', to: 'batches#rack_0', as: 'rack_0'
+  get '/batches/rack_1', to: 'batches#rack_1', as: 'rack_1'
+  get '/batches/rack_2', to: 'batches#rack_2', as: 'rack_2'
+  get '/batches/displaycase', to: 'batches#displaycase', as: 'displaycase'
   resources :batches
 
   # Sample resource route with options:

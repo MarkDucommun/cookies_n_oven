@@ -19,4 +19,12 @@ class BatchesController < ApplicationController
     batch.save
     render json: batch
   end
+
+  def prep_table
+    render json: Batch.find_all_by_location('prep_table')
+  end
+
+  def rack_0
+    render json: Batch.find_by_location('#rack_0')
+  end
 end

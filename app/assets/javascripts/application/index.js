@@ -1,6 +1,8 @@
 $(function(){
   var dave_the_oven = new Oven("Dave", 3)
 
+  load_page(dave_the_oven)
+
   $('#new_batch').on('submit', function(event){
     event.preventDefault()
     prep_batch(dave_the_oven)
@@ -12,7 +14,6 @@ $(function(){
   })
 
   $('td').click(function(){
-    console.log("Anything")
     var rack_id = ("#" + this.id)
     $.each(dave_the_oven.racks, function(i, rack){
       if(rack.getter === rack_id){
@@ -22,29 +23,42 @@ $(function(){
       update_screen(dave_the_oven.racks)
     })
   })
-
-  $('#to_oven').click(function(){
-      $.get('/batches/' + $(this).data('id'), function(batch){
-        var batch = new Batch(batch.cookie_type,
-                              batch.bake_time,
-                              batch.time_baked,
-                              batch.cookie_status,
-                              batch.id)
-        alert(dave_the_oven.insert_batch(batch))
-        console.log(batch)
-      }, 'json')
-      $(this).parent('li').remove()
-  })
 })
 
-function prep_batch(oven) {
-  var batch = new Batch($('input[name=batch_type]').val(),
-                        $('input[name=bake_time]').val())
-
-  $.post('/batches', batch, function(batch_id){
-    batch.batch_id = batch_id
-    console.log(batch_id)
+function load_page(oven){
+  $.get('/batches/prep_table', function(prep_table){
+    $.each(prep_table, function(i, batch){
+       prep_batch(oven, batch)
+    })
   })
+  $.get('/batches/rack_0', function(batch_info){
+    var batch = new Batch(batch_info.cookie_type,
+                          batch_info.bake_time,
+                          batch_info.time_baked,
+                          batch_info.cookie_status,
+                          batch_info.id)
+    console.log(oven)
+    oven.racks[0].set_batch(batch)
+    update_screen(oven.racks)   
+  })
+}
+
+function prep_batch(oven, batch_info) {
+  var batch = null
+  if (batch_info) {
+    batch = new Batch(batch_info.cookie_type,
+                      batch_info.bake_time,
+                      batch_info.time_baked,
+                      batch_info.cookie_status,
+                      batch_info.id)
+  } else {
+    batch = new Batch($('input[name=batch_type]').val(), 
+                      $('input[name=bake_time]').val())
+    $.post('/batches', batch, function(batch_id){
+      batch.batch_id = batch_id
+      console.log(batch_id)
+    })
+  }
 
   var li = $('<li>' + batch.cookie_type + '</li>')
 
