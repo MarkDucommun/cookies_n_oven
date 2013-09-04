@@ -31,16 +31,26 @@ function load_page(oven){
        prep_batch(oven, batch)
     })
   })
-  $.get('/batches/rack_0', function(batch_info){
-    var batch = new Batch(batch_info.cookie_type,
-                          batch_info.bake_time,
-                          batch_info.time_baked,
-                          batch_info.cookie_status,
-                          batch_info.id)
-    console.log(oven)
-    oven.racks[0].set_batch(batch)
-    update_screen(oven.racks)   
-  })
+
+  var complete = [false, false, false]
+
+  for(var j = 0; j < 3; j++){
+    $.get('/batches/rack/' + j, function(data){
+      var batch = data.batch
+      if(batch){
+        batch = new Batch(batch.cookie_type,
+                          batch.bake_time,
+                          batch.time_baked,
+                          batch.cookie_status,
+                          batch.id)
+        oven.racks[data.j].set_batch(batch)
+      }
+      complete[data.j] = true
+      if(complete[0] && complete[1] && complete[2]){
+        update_screen(oven.racks)
+      }
+    })
+  } 
 }
 
 function prep_batch(oven, batch_info) {
@@ -56,7 +66,6 @@ function prep_batch(oven, batch_info) {
                       $('input[name=bake_time]').val())
     $.post('/batches', batch, function(batch_id){
       batch.batch_id = batch_id
-      console.log(batch_id)
     })
   }
 

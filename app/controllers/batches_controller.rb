@@ -24,7 +24,7 @@ class BatchesController < ApplicationController
     render json: Batch.find_all_by_location('prep_table')
   end
 
-  def rack_0
-    render json: Batch.find_by_location('#rack_0')
+  def rack
+    render json: {batch: Batch.find_by_location("#rack_" + params[:id]), j: params[:id]}
   end
 end
