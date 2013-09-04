@@ -45,6 +45,7 @@ function to_displaycase(batch){
   li = $('<li class=' + batch.cookie_status + '>' + batch.cookie_type + '</li>')
     .click(function(){
       $(this).remove();
+      
     })
   $('#displaycase').append(li)
 }
